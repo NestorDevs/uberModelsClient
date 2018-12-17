@@ -2,26 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
-## Development server
+# DevsStore
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<p align="center">
+  <a href="https://devsstore.net"><img src="http://www.devsstore.net/assets/images/logo.png" width="300" alt="Devsstore image"/></a>
+</p>
+<hr>
+<p align="center">
+  <a href="https://devsstore.net"><img src="https://img.shields.io/badge/Devs-Store-3F51B5.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACkFJREFUeNrs3TFsVPcdwPH/VY6rBFoZqS5SWhq7QUnaquCKZGilirNQ06GKsDu0QxRxrF5sliyWCh6yVY1RJZINZ+nCgCNaoQzIFzF1SDGKlLZSK4zUShBEcKiDSwJ1/3/uiBzHBM6+u/D+7/ORns4Q/E763bO/93/v7hICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCXihHQipVjoRpv0rY7bn3NrymS0/1r/6Yet8W4nU9fV05dqRsSAkK7olGLN/ubsegzkQL7IG5/7r/fv1psRuXNGJMZQ0NAaDUaKRQTcRsXjdIFZG1MjsZtJsZkwQAREB4kHIdNI0MX4/Ze/0a/eypu0zEkiwZJ8hUjYFU8avHmgnhk7NamvjsdFxdWXuivGSRWIKxedZwMLojn7y/xR/7yN9qxp3rcRq1GrEAodzyGmqsO8SiD5UfbtadqczUyZKgCQjnjUYs354KL5OVxfUs795aOm3NOaQkI5YzHcZMokf90bM/HRURAEA+yXn10dO8iIiCUIB4j4lFS/+34PaSIjBi0gJBnPIbEo8Su9nTjXo67sC4g5BePvmY8XDAvqxtbunEvfc2IOM4EhIykN4F5Zlhmy73duqeh4M2opeCNhOVYfVTjzZxJlNzp/m7f47BP9rUCofheNQLCox9/GateBIQCrz5qwakrkq9f7/Y9Vr20V0AoNs8Cadi+4vhDQHjg1Uc13gyYBI2AxK3ndrfvdSCuQqqGLyAUz7gR8Kn0NpDvf+A4pG28Civf1Ud6Hf41k+Bz3o3bv7r+iqxtPvo9z+ck5KmbHylRj9vbRl4QP4zb1Y/T+0L2hu59jH86HmcMX0Aohr1duI/0C2GqMhYWjLtoPmysVF/oHwiNC921LhyPApIZp7AytXLszumrTn2cRDoVMRrDUTfpTI6XxoXukx08ZhYqp64MmrSA8PDHIz2rvNDBeAzHeMybdHYRSe8XmutgRAZjRKxWM+JVWHka6OC+p8Qj02eTp66kx3WqoMclAkKbVDu03/kYj2njzToi6fGdL9hxiYBQAEeNwOMMApK3Jzq031mjLYXZgh2XCAhtNNCBfS5WxoI3gpVA8w1/iwU5LhEQCsCFc483CAitm7r6kiEAAkJrRi+9HI5crRkE8Bk+yoR7end5Z9j1/ssh3HzSMAAB4cHC8ZsPfxlmr//cMAAB4f7ReG3pZ3H7aQifbDcQQEBYPxZ/++SJMHfzqfDajR85RQUICOv4XwhzN54NJ5afEwtAQLiP2yGc+Ghf+NW1XwsGICA8uMo/zxgC0HHeBwKAgAAgIAAICAACAgACAoCAACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCAACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACIgRACAgAAgIAAICgIAAgIAAICAACAgAAgJAvnqMAFircurKsClgBQKAgAAgIAAICAACAgACAoCAACAgAAgIAAICAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgACAgAAgIAAICgIAAICAAICAACAgAAgKAgAAgIAAgIAAICAACAoCAACAgACAgAAgIAAICgIAAICAAICAACAgAAgKAgAAgIAAgIAAICAACAoCAACAgACAgAAgIAAICgIAAICBGAICAACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCAACAgAAgIAAICAAICgIAA8FDoMQJgrZVjoRZvBtq824XKWJgxXQEB8nYgbtU277MeNwHJiFNYAAgIAAICgIAAICAAICAACAgAAgKAgAAgIAAgIAAICAACAoCAACAgACAgAAgIAAICgIAAICAAICAACAgAAgKAgAAgIAAgIAAICAACAoCAACAgACAgAAgIAAICgIAAICAAICAACAgAAgKAgACAgAAgIAAICAACAoCAAICAACAgAAgIAAICgIAAgIAAICAACAgAAgKAgACAgAAgIAAICAACAoCAAICAACAgfHmee7VqCKUyZAQISDkttHVv28+HyWf+GCbfCX1Gm7+VY3ce576H/rhEQOiIi23d286Td78aMdr8vbejY4/zRdMVEMqkdylMfvfs3T8dNpD8/eHxcPjyN80BASmretv2tOPs6j8NTL4TJow3X83Hd+D3gyF0ICJ1ExYQHn4L7drR0995a+1fHY6/ZFxgzTMeQ6tXmSkibz0Vv3isbXcxb8p5qRhBpibOXEjPJDe1j62XwuToi+v9l8W4jb6yxzPKjOJRjTfpYte6F8+fvhHCnvio71gK4Wvx63Cz9Sc1lbEwaNJ56TGCbKVf7rVN7WH36/f6L+mXzFz8pTMTb6diSBaMu7DhGGiuOr7wWPn7Y41ttW/FiGyP25bbMSzL8fZWCI9/FMIjcQu31z0eERAK4u1NBWTbP1ZfPL+XtP9a/CWUTk28aeSFszdu1Y1+87+/2tgax8vnVyzPX46Bef/Tv3J8ZMgprFxNnEmrhGsb+t7epTDy/P7wg23GyOakkLz017AYboXBytidU59kxEX0XE3vSz+sMy1/39ZL4kHbpNNeR3eFWfEQEIrnjZb+9fdOhPFfvCgetNWVR1o8DikMp7ByN3HmXLjf5xo9eToc2PXb8O2txkXb1V/ZE4aNIU8uoudvKjRenvlZvUuNcDzzunDQ6eMPKxAKvAqZC6tfbbPjbBj/yZGwtddosPpg41wDKYdDq+MxWRUPunzcISAU1PS+9D6N6fTlgWePmAddOeri6sNHlwgImUTkUNj5p3nXO+iC+RgPqw8BISeTP/7dwRC8Hp+OSsfXQWMoBxfRyxaRxofmzZkEHTLsQzatQMhU84fbM0Q64aB4WIFQjpVILd4cNwnaGI8ZY7ACoRwrkZnmSsQ1EcQDKxA2tBJJH3OSron0mQYtSk8+hr1c1wqE8q5E0g9/+j/FzZoGLUjHy6B4WIHA3dXISGhcF7Ea4YtWHYecskJAWC8iKR4TcRsXEtaE42hovMPcdTMEBCFBOBAQOhuTdGprf9xGxKQ00ajH7Y0YDdfGEBDaFpNqaHw0/O5mTKqmUnj1ZjTOh8ZHsNeNBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgjP4vwADOiqxINc/bngAAAABJRU5ErkJggg=="/></a>
+  <img src="https://img.shields.io/badge/Code Style-StandarJS-EFD81C.svg?logo=javascript"/>
+  <img src="https://img.shields.io/badge/DevsStore-Angular-DD0031.svg?logo=angular"/>
+  <img src="https://img.shields.io/badge/DevsStore-ReactJS-61dafb.svg?logo=react"/>
+  <img src="https://img.shields.io/badge/DevsStore-NodeJS-CB3837.svg?logo=npm"/>
+  <img src="https://img.shields.io/badge/DevsStore-Firebase-F7C428.svg?logo=firebase"/>
+ </p>
+<hr>
