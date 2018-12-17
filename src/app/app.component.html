@@ -1,0 +1,26 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Taxistas</a>
+</nav>
+<div class="row pad-10">
+    <div class="col-8">
+
+        <h3>Mapa <small *ngIf="siguiendoNombre">Siguiendo a: {{siguiendoNombre}}</small> </h3>
+
+        <agm-map [latitude]="lat" [longitude]="lng" [zoom]="13">
+            <agm-marker *ngFor="let taxista of taxistas" [latitude]="taxista.lat" [longitude]="taxista.lng" iconUrl='assets/imgs/taxi.png'></agm-marker>
+        </agm-map>
+</div>
+
+<div class="col-4">
+        <h3>Taxistas</h3>
+        <div class="list-group">
+            <a href="#" (click)="seguir( taxista )" *ngFor="let taxista of taxistas" class="list-group-item list-group-item-action">
+            {{taxista.nombre}}
+          </a>
+            <br>
+            <button *ngIf="siguiendoNombre" (click)="dejarDeSeguir()" class="btn btn-primary btn-block">
+            Dejar de Seguir
+          </button>
+        </div>
+</div>
+</div>
